@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CreatorOS — AI Operating System for Creators</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #fff; line-height: 1.6; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    header { padding: 20px 0; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: #0a0a0a; z-index: 100; }
+    .logo { font-size: 24px; font-weight: bold; }
+    .logo span { color: #d4a853; }
+    .nav-links { display: flex; gap: 30px; }
+    .nav-links a { color: #888; text-decoration: none; transition: color 0.3s; }
+    .nav-links a:hover { color: #fff; }
+    .hero { padding: 120px 0; text-align: center; }
+    .hero h1 { font-size: 56px; margin-bottom: 20px; background: linear-gradient(135deg, #d4a853, #f5e0b3); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero p { font-size: 18px; color: #888; max-width: 600px; margin: 0 auto 40px; }
+    .cta-button { display: inline-block; padding: 16px 40px; background: #d4a853; color: #000; text-decoration: none; border-radius: 8px; font-size: 16px; font-weight: 600; transition: all 0.3s; border: none; cursor: pointer; }
+    .cta-button:hover { background: #f5e0b3; transform: translateY(-2px); }
+    .features { padding: 80px 0; }
+    .features h2 { text-align: center; font-size: 36px; margin-bottom: 60px; }
+    .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; }
+    .feature-card { background: #111; padding: 40px; border-radius: 16px; border: 1px solid #222; transition: all 0.3s; }
+    .feature-card:hover { border-color: #d4a853; transform: translateY(-4px); }
+    .feature-card h3 { font-size: 20px; margin-bottom: 12px; color: #d4a853; }
+    .feature-card p { color: #888; }
+    footer { text-align: center; padding: 60px 0; color: #555; border-top: 1px solid #222; margin-top: 80px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Creator<span>OS</span></div>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="login.html">Log In</a>
+      <a href="login.html" class="cta-button">Get Started</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>AI Operating System for Creators</h1>
+        <p>Manage your content pipeline, track performance metrics, and get AI-powered insights to grow your audience faster.</p>
+        <a href="login.html" class="cta-button">Create Free Account</a>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2>Everything You Need to Grow</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3>Script Management</h3>
+            <p>Organize and track all your video scripts, blog posts, and content ideas in one place.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Analytics Dashboard</h3>
+            <p>Track your growth, engagement rates, and audience demographics with beautiful visualizations.</p>
+          </div>
+          <div class="feature-card">
+            <h3>AI Insights</h3>
+            <p>Get personalized recommendations on content strategy, posting times, and trending topics.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Content Pipeline</h3>
+            <p>Manage your production workflow from idea to published content with status tracking.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 CreatorOS. Free for all creators.</p>
+    </div>
+  </footer>
+</body>
+</html>
